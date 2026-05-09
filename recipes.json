@@ -1,0 +1,1525 @@
+[
+  {
+    "name": "Veg Biryani",
+    "ingredient_details": [
+      { "name": "rice", "quantity": "1 cup" },
+      { "name": "mixed vegetables (carrot, beans, peas, cauliflower)", "quantity": "1 cup" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "tomato", "quantity": "1 medium" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "mint leaves", "quantity": "10 leaves" },
+      { "name": "coriander leaves", "quantity": "10 leaves" },
+      { "name": "biryani masala", "quantity": "2 tbsp" },
+      { "name": "turmeric powder", "quantity": "1 tsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "ghee", "quantity": "2 tbsp" },
+      { "name": "water", "quantity": "as needed" }
+    ],
+    "making_process": "First, take a non-stick pan and heat the oil. Add ginger garlic paste and sauté it until fragrant. Then add sliced onions and cook until golden brown. Add the mixed vegetables and sauté for 5 minutes. Add yogurt and biryani masala along with turmeric, red chili powder, and salt. Mix everything well. Now add soaked rice and enough water to cook. Cover and cook on low flame until the rice and vegetables are tender. Finally, garnish with mint and coriander leaves and serve hot.",
+    "cuisine": "North Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/veg_biryani.png"
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "ingredient_details": [
+      { "name": "paneer", "quantity": "200 g" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "3 large" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "butter", "quantity": "3 tbsp" },
+      { "name": "cream", "quantity": "1/4 cup" },
+      { "name": "kasuri methi", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" }
+    ],
+    "making_process": "Sauté onions and tomatoes, blend into paste. Heat butter, fry ginger garlic paste, add tomato-onion paste, chili powder, and garam masala. Add paneer cubes, cream, kasuri methi. Cook until creamy. Serve with naan or rice.",
+    "cuisine": "North Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/paneer_butter_masala.jpg"
+  },
+  {
+    "name": "Idli Sambhar",
+    "ingredient_details": [
+      { "name": "idli rice", "quantity": "2 cups" },
+      { "name": "urad dal", "quantity": "1 cup" },
+      { "name": "tamarind", "quantity": "lemon-sized" },
+      { "name": "toor dal", "quantity": "1/2 cup" },
+      { "name": "sambhar powder", "quantity": "2 tbsp" },
+      { "name": "drumstick", "quantity": "1" },
+      { "name": "onion", "quantity": "1 medium" }
+    ],
+    "making_process": "Soak rice and urad dal, grind and ferment batter. Steam idlis. Cook toor dal with turmeric, prepare tamarind extract, add vegetables and sambhar powder, boil. Mix with dal. Serve with hot idlis.",
+    "cuisine": "South Indian",
+    "prep_time": "10 hrs (fermentation)",
+    "image_url": "/static/images/idli_sambar.webp"
+  },
+  {
+    "name": "Chole Bhature",
+    "ingredient_details": [
+      { "name": "chickpeas", "quantity": "2 cups" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "chole masala", "quantity": "2 tbsp" },
+      { "name": "maida", "quantity": "2 cups" },
+      { "name": "curd", "quantity": "1/2 cup" }
+    ],
+    "making_process": "Soak chickpeas overnight, pressure cook. Make gravy with onion, tomato, ginger garlic paste, and chole masala. For bhature, knead maida with curd and rest for 2 hrs, roll and deep fry. Serve hot with chole.",
+    "cuisine": "Punjabi",
+    "prep_time": "10 hrs (soaking)",
+    "image_url": "/static/images/chole_bhature.jpg"
+  },
+  {
+    "name": "Aloo Paratha",
+    "ingredient_details": [
+      { "name": "wheat flour", "quantity": "2 cups" },
+      { "name": "potato", "quantity": "3 medium" },
+      { "name": "onion", "quantity": "1 small" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "coriander leaves", "quantity": "2 tbsp" },
+      { "name": "ghee", "quantity": "2 tbsp" }
+    ],
+    "making_process": "Boil and mash potatoes, mix with onion, chili, coriander, and spices. Stuff into wheat flour dough balls, roll out, and roast on tawa with ghee. Serve hot with curd and pickle.",
+    "cuisine": "North Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/aloo_paratha.jpg"
+  },
+  {
+    "name": "Pav Bhaji",
+    "ingredient_details": [
+      { "name": "mixed vegetables (potato, carrot, beans, peas)", "quantity": "2 cups" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "3 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "pav bhaji masala", "quantity": "2 tbsp" },
+      { "name": "butter", "quantity": "3 tbsp" },
+      { "name": "pav buns", "quantity": "6" }
+    ],
+    "making_process": "Boil and mash vegetables. Sauté onion, tomato, ginger garlic paste, add pav bhaji masala and butter. Mix mashed vegetables and cook. Serve with butter-toasted pav.",
+    "cuisine": "Maharashtrian Street Food",
+    "prep_time": "50 mins",
+    "image_url": "/static/images/pav_bhaji.webp"
+  },
+  {
+    "name": "Rasgulla",
+    "ingredient_details": [
+      { "name": "milk", "quantity": "1 liter" },
+      { "name": "lemon juice", "quantity": "2 tbsp" },
+      { "name": "sugar", "quantity": "1.5 cups" },
+      { "name": "water", "quantity": "4 cups" }
+    ],
+    "making_process": "Boil milk, curdle with lemon juice, strain chenna. Knead until smooth, make balls. Boil in sugar syrup for 15 minutes until spongy. Cool and serve.",
+    "cuisine": "Bengali Sweet",
+    "prep_time": "1 hr",
+    "image_url": "/static/images/rasgulla.jpg"
+  },
+  {
+    "name": "Jalebi",
+    "ingredient_details": [
+      { "name": "maida", "quantity": "1 cup" },
+      { "name": "curd", "quantity": "1/2 cup" },
+      { "name": "baking soda", "quantity": "1/4 tsp" },
+      { "name": "sugar", "quantity": "2 cups" },
+      { "name": "saffron", "quantity": "few strands" },
+      { "name": "ghee/oil", "quantity": "for frying" }
+    ],
+    "making_process": "Make batter with maida, curd, and soda, ferment overnight. Pour batter into spiral shapes in hot oil/ghee, fry till golden. Dip immediately into warm sugar syrup flavored with saffron. Serve hot.",
+    "cuisine": "Indian Sweet",
+    "prep_time": "12 hrs (fermentation)",
+    "image_url": "/static/images/jalebi.jpg"
+  },
+  {
+    "name": "Kesari Bath",
+    "ingredient_details": [
+      { "name": "rava", "quantity": "1 cup" },
+      { "name": "sugar", "quantity": "3/4 cup" },
+      { "name": "ghee", "quantity": "3 tbsp" },
+      { "name": "cardamom powder", "quantity": "1/2 tsp" },
+      { "name": "water", "quantity": "2 cups" },
+      { "name": "saffron", "quantity": "a pinch" },
+      { "name": "cashews", "quantity": "10" },
+      { "name": "raisins", "quantity": "10" }
+    ],
+    "making_process": "Roast rava in ghee, add water with saffron. Cook till thick, add sugar, cashews, raisins, and cardamom. Serve warm.",
+    "cuisine": "South Indian",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/kesari_bath.jpg"
+  },
+  {
+    "name": "Rava Kesari",
+    "ingredient_details": [
+      { "name": "rava (semolina)", "quantity": "1 cup" },
+      { "name": "sugar", "quantity": "3/4 cup" },
+      { "name": "ghee", "quantity": "3 tbsp" },
+      { "name": "cardamom powder", "quantity": "1/2 tsp" },
+      { "name": "cashews", "quantity": "10" },
+      { "name": "raisins", "quantity": "10" },
+      { "name": "water", "quantity": "2 1/2 cups" },
+      { "name": "saffron or food color", "quantity": "a pinch" }
+    ],
+    "making_process": "Roast rava in ghee. Heat water with saffron, add to rava while stirring. Add sugar and cook till thick. Fry cashews and raisins in ghee, add to kesari. Serve warm.",
+    "cuisine": "South Indian",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/rava_kesari.jpg"
+  },
+  {
+    "name": "Aloo Paratha",
+    "ingredient_details": [
+      { "name": "wheat flour", "quantity": "2 cups" },
+      { "name": "potato", "quantity": "3 boiled" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "coriander leaves", "quantity": "2 tbsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil/ghee", "quantity": "for roasting" }
+    ],
+    "making_process": "Prepare dough with wheat flour and water. Mash boiled potatoes with green chilies, coriander, garam masala, and salt. Roll dough, stuff filling, and cook on a tawa with ghee until golden brown. Serve with curd and pickle.",
+    "cuisine": "North Indian",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/aloo_paratha.jpg"
+  },
+  {
+    "name": "Hyderabadi Haleem",
+    "ingredient_details": [
+      { "name": "mutton", "quantity": "500 g" },
+      { "name": "wheat", "quantity": "1 cup" },
+      { "name": "lentils", "quantity": "1/2 cup" },
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "green chili", "quantity": "3" },
+      { "name": "garam masala", "quantity": "2 tsp" },
+      { "name": "ghee", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Soak wheat and lentils overnight. Cook mutton with spices until tender, shred it. Boil soaked wheat and lentils until soft, blend into paste. Mix meat and wheat mixture, cook slowly with ghee and spices for 1–2 hours. Garnish with fried onions.",
+    "cuisine": "Hyderabadi",
+    "prep_time": "2 hrs",
+    "image_url": "/static/images/haleem.jpg"
+  },
+  {
+    "name": "Rajma Chawal",
+    "ingredient_details": [
+      { "name": "rajma (kidney beans)", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "rice", "quantity": "2 cups" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Soak rajma overnight and pressure cook until soft. Heat oil, sauté onion, ginger garlic paste, tomatoes, and spices. Add cooked rajma and simmer. Serve with steamed rice.",
+    "cuisine": "Punjabi",
+    "prep_time": "1 hr",
+    "image_url": "/static/images/rajma_chawal.webp"
+  },
+  {
+    "name": "Samosa",
+    "ingredient_details": [
+      { "name": "maida (all-purpose flour)", "quantity": "2 cups" },
+      { "name": "potato", "quantity": "3 boiled" },
+      { "name": "peas", "quantity": "1/2 cup" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "cumin seeds", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "for frying" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Prepare dough with flour and water. For filling, sauté cumin, green chilies, peas, and mashed potatoes with salt. Roll dough, fill mixture, fold into triangle, and deep fry until golden. Serve with chutney.",
+    "cuisine": "North Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/samosa.jpg"
+  },
+  {
+    "name": "Vada Pav",
+    "ingredient_details": [
+      { "name": "potato", "quantity": "3 boiled" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "ginger garlic paste", "quantity": "1 tsp" },
+      { "name": "gram flour", "quantity": "1 cup" },
+      { "name": "bread buns", "quantity": "4" },
+      { "name": "oil", "quantity": "for frying" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Mash potatoes with spices, shape into balls. Dip in gram flour batter and deep fry. Place vada in bread bun with chutneys. Serve hot.",
+    "cuisine": "Maharashtrian",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/vada_pav.jpg"
+  },
+  {
+    "name": "Egg Curry",
+    "ingredient_details": [
+      { "name": "boiled eggs", "quantity": "4" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté onions and ginger garlic paste. Add tomatoes, spices, and cook until oil separates. Add boiled eggs, simmer for 5 minutes. Serve with rice or roti.",
+    "cuisine": "North Indian",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/egg_curry.jpg"
+  },
+  {
+    "name": "Pesarattu",
+    "ingredient_details": [
+      { "name": "green gram (moong dal)", "quantity": "1 cup" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "ginger", "quantity": "1 inch" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "oil", "quantity": "for roasting" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Soak green gram overnight, grind with green chili and ginger into batter. Spread batter on tawa like dosa, sprinkle onions, drizzle oil, and cook both sides. Serve with chutney.",
+    "cuisine": "Andhra",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/pesarattu.jpg"
+  },
+  {
+    "name": "Poori Bhaji",
+    "ingredient_details": [
+      { "name": "wheat flour", "quantity": "2 cups" },
+      { "name": "potato", "quantity": "3 boiled" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "curry leaves", "quantity": "6" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "mustard seeds", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "for frying" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Prepare dough with wheat flour, roll into small circles, and deep fry into pooris. For bhaji, sauté onions, green chilies, curry leaves, and turmeric. Add mashed potatoes and salt. Serve with hot pooris.",
+    "cuisine": "North Indian",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/poori_bhaji.jpg"
+  },
+  {
+    "name": "Vegetable Hakka Noodles",
+    "ingredient_details": [
+      { "name": "hakka noodles", "quantity": "200 g" },
+      { "name": "carrot", "quantity": "1 medium" },
+      { "name": "capsicum", "quantity": "1 medium" },
+      { "name": "cabbage", "quantity": "1/2 cup shredded" },
+      { "name": "spring onion", "quantity": "2 stalks" },
+      { "name": "soy sauce", "quantity": "2 tbsp" },
+      { "name": "vinegar", "quantity": "1 tbsp" },
+      { "name": "green chili sauce", "quantity": "1 tbsp" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Boil noodles until just cooked and set aside. Heat oil in a wok, sauté ginger garlic paste, and add vegetables. Stir-fry on high flame. Add soy sauce, vinegar, chili sauce, and salt. Toss in noodles, stir-fry for 2–3 minutes, garnish with spring onions, and serve hot.",
+    "cuisine": "Indo-Chinese",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/veg_hakka_noodles.jpg"
+  },
+  {
+    "name": "Vegetable Pakora",
+    "ingredient_details": [
+      { "name": "gram flour (besan)", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "1 large sliced" },
+      { "name": "potato", "quantity": "1 medium sliced" },
+      { "name": "spinach", "quantity": "1/2 cup chopped" },
+      { "name": "green chili", "quantity": "2 chopped" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "carom seeds", "quantity": "1/2 tsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil", "quantity": "for deep frying" }
+    ],
+    "making_process": "Mix gram flour with chili powder, turmeric, carom seeds, salt, and water to form a thick batter. Add sliced vegetables and coat well. Heat oil and deep-fry spoonfuls until golden brown. Drain on tissue paper and serve with chutney.",
+    "cuisine": "North Indian",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/vegetable_pakora.jpg"
+  },
+  {
+    "name": "Stuffed Paratha",
+    "ingredient_details": [
+      { "name": "whole wheat flour", "quantity": "2 cups" },
+      { "name": "potato", "quantity": "2 medium boiled and mashed" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "coriander leaves", "quantity": "2 tbsp chopped" },
+      { "name": "cumin powder", "quantity": "1 tsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil/ghee", "quantity": "as needed" }
+    ],
+    "making_process": "Prepare dough with flour and water. Mix mashed potatoes with chili, coriander, cumin, and salt. Stuff inside dough balls, roll flat, and cook on a tawa with oil/ghee until golden brown. Serve hot with curd or pickle.",
+    "cuisine": "Punjabi",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/stuffed_paratha.jpg"
+  },
+  {
+    "name": "Vegetable Upma",
+    "ingredient_details": [
+      { "name": "rava (semolina)", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "carrot", "quantity": "1 medium" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "ginger", "quantity": "1 inch piece" },
+      { "name": "curry leaves", "quantity": "8" },
+      { "name": "mustard seeds", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "water", "quantity": "2 cups" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Roast rava until golden. Heat oil, splutter mustard seeds, curry leaves, onions, chili, and ginger. Add chopped carrot. Pour water, add salt, and bring to boil. Slowly add rava, stirring continuously until thickened. Serve hot.",
+    "cuisine": "South Indian",
+    "prep_time": "25 mins",
+    "image_url": "/static/images/vegetable_upma.jpg"
+  },
+  {
+    "name": "Aloo Gobi",
+    "ingredient_details": [
+      { "name": "potato", "quantity": "2 medium" },
+      { "name": "cauliflower", "quantity": "1 cup florets" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "tomato", "quantity": "1 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "coriander leaves", "quantity": "2 tbsp chopped" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté onions and ginger garlic paste. Add tomatoes, turmeric, chili powder, and salt. Add potatoes and cauliflower, cover, and cook until tender. Sprinkle garam masala and garnish with coriander leaves. Serve hot with roti.",
+    "cuisine": "North Indian",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/aloo_gobi.jpg"
+  },
+  {
+    "name": "Pesarattu (Green Gram Dosa)",
+    "ingredient_details": [
+      { "name": "green gram (moong dal)", "quantity": "1 cup soaked overnight" },
+      { "name": "ginger", "quantity": "1 inch" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "onion", "quantity": "1 medium chopped" },
+      { "name": "curry leaves", "quantity": "6" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil", "quantity": "as needed" }
+    ],
+    "making_process": "Grind soaked green gram, ginger, and chili into a smooth batter. Add salt. Heat a tawa, spread batter like dosa, sprinkle onions, and drizzle oil. Cook till crisp. Serve hot with chutney.",
+    "cuisine": "Andhra",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/pesarattu.jpg"
+  },
+  {
+    "name": "Baingan Bharta",
+    "ingredient_details": [
+      { "name": "eggplant (baingan)", "quantity": "2 large" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "coriander leaves", "quantity": "2 tbsp chopped" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Roast eggplants on flame till skin is charred, peel, and mash pulp. Heat oil, sauté onions, ginger garlic paste, and chili. Add tomatoes, spices, and mashed eggplant. Cook till well combined. Garnish with coriander and serve with roti.",
+    "cuisine": "North Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/baingan_bharta.jpg"
+  },
+  {
+    "name": "Vegetable Pulao",
+    "ingredient_details": [
+      { "name": "basmati rice", "quantity": "2 cups" },
+      { "name": "mixed vegetables", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "bay leaf", "quantity": "1" },
+      { "name": "cloves", "quantity": "3" },
+      { "name": "cardamom", "quantity": "2" },
+      { "name": "oil/ghee", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "water", "quantity": "as needed" }
+    ],
+    "making_process": "Heat oil/ghee, add whole spices, onions, and ginger garlic paste. Add vegetables, chili, and sauté. Add washed rice and water. Cook covered till rice is done. Serve hot with raita.",
+    "cuisine": "North Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/vegetable_pulao.jpg"
+  },
+  {
+    "name": "Egg Curry",
+    "ingredient_details": [
+      { "name": "eggs", "quantity": "4 boiled" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté onions and ginger garlic paste. Add tomatoes, turmeric, chili powder, garam masala, and salt. Cook till masala is ready. Add boiled eggs and simmer for 10 minutes. Serve with rice or roti.",
+    "cuisine": "Indian",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/egg_curry.jpg"
+  },
+  {
+    "name": "Vegetable Korma",
+    "ingredient_details": [
+      { "name": "mixed vegetables", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "tomato", "quantity": "1 medium" },
+      { "name": "coconut paste", "quantity": "1/4 cup" },
+      { "name": "coriander powder", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté onions, ginger garlic paste, and tomatoes. Add vegetables, chili, coriander powder, garam masala, and coconut paste. Simmer till vegetables are cooked. Serve with chapati or rice.",
+    "cuisine": "South Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/vegetable_korma.jpg"
+  },
+  {
+    "name": "Litti Chokha",
+    "ingredient_details": [
+      { "name": "wheat flour", "quantity": "2 cups" },
+      { "name": "sattu (roasted gram flour)", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "1 medium chopped" },
+      { "name": "green chili", "quantity": "2 chopped" },
+      { "name": "mustard oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "brinjal", "quantity": "1 large roasted" },
+      { "name": "tomato", "quantity": "1 roasted" },
+      { "name": "boiled potato", "quantity": "1 medium" }
+    ],
+    "making_process": "Make dough with flour. Mix sattu with onion, chili, mustard oil, and salt as filling. Stuff and shape litti balls. Bake or roast until golden. Mash brinjal, tomato, and potato with chili and oil for chokha. Serve together.",
+    "cuisine": "Bihari",
+    "prep_time": "1 hr",
+    "image_url": "/static/images/litti_chokha.webp"
+  },
+  {
+    "name": "Chole Bhature",
+    "ingredient_details": [
+      { "name": "chickpeas", "quantity": "1 cup soaked overnight" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "chole masala", "quantity": "2 tbsp" },
+      { "name": "flour (maida)", "quantity": "2 cups" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "oil", "quantity": "for frying" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Cook chickpeas with onion, tomato, ginger garlic paste, and chole masala. For bhature, knead flour with yogurt, rest for 2 hrs, roll, and deep-fry until fluffy. Serve hot with chole.",
+    "cuisine": "Punjabi",
+    "prep_time": "2 hrs",
+    "image_url": "/static/images/chole_bhature.jpg"
+  },
+  {
+    "name": "Idiyappam (String Hoppers)",
+    "ingredient_details": [
+      { "name": "rice flour", "quantity": "2 cups" },
+      { "name": "hot water", "quantity": "as needed" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "coconut (grated)", "quantity": "1/2 cup" }
+    ],
+    "making_process": "Mix rice flour with hot water and salt to form dough. Use an idiyappam press to make noodles. Steam for 10 minutes. Sprinkle grated coconut and serve with curry or coconut milk.",
+    "cuisine": "Kerala",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/idiyappam.jpg"
+  },
+  {
+    "name": "Rajma Masala",
+    "ingredient_details": [
+      { "name": "kidney beans", "quantity": "1 cup soaked overnight" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "coriander leaves", "quantity": "2 tbsp chopped" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Cook soaked kidney beans until soft. Heat oil, sauté onions, ginger garlic paste. Add tomatoes, chili powder, and garam masala. Add beans with water and simmer for 20 mins. Garnish with coriander leaves and serve with rice.",
+    "cuisine": "North Indian",
+    "prep_time": "1 hr 30 mins",
+    "image_url": "/static/images/rajma_masala.jpg"
+  },
+  {
+    "name": "Dal Tadka",
+    "ingredient_details": [
+      { "name": "toor dal", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "tomato", "quantity": "1 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "green chili", "quantity": "1" },
+      { "name": "cumin seeds", "quantity": "1 tsp" },
+      { "name": "ghee", "quantity": "2 tbsp" },
+      { "name": "garam masala", "quantity": "1/2 tsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Cook toor dal until soft. Heat ghee, add cumin seeds, onion, green chili, and ginger garlic paste. Add tomatoes, cook, and pour over dal. Add garam masala and simmer. Serve hot with rice.",
+    "cuisine": "North Indian",
+    "prep_time": "45 mins",
+    "image_url": "/static/images/dal_tadka.webp"
+  },
+  {
+    "name": "Palak Paneer",
+    "ingredient_details": [
+      { "name": "spinach", "quantity": "2 cups blanched" },
+      { "name": "paneer", "quantity": "200 g cubed" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "tomato", "quantity": "1 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "green chili", "quantity": "1" },
+      { "name": "cream", "quantity": "2 tbsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Blend blanched spinach into a puree. Heat oil, sauté onions, ginger garlic paste, and chili. Add tomatoes, cook, then add spinach puree and paneer cubes. Simmer and add cream. Serve hot with roti.",
+    "cuisine": "North Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/palak_paneer.jpg"
+  },
+  {
+    "name": "Kadai Paneer",
+    "ingredient_details": [
+      { "name": "paneer", "quantity": "200 g" },
+      { "name": "capsicum", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "tomato puree", "quantity": "1/2 cup" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "kadai masala", "quantity": "1 tbsp" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté onions, capsicum, and ginger garlic paste. Add tomato puree, kadai masala, and salt. Cook until oil separates. Add paneer cubes, mix well, and serve hot with roti.",
+    "cuisine": "North Indian",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/kadai_paneer.jpg"
+  },
+  {
+    "name": "Paneer Tikka",
+    "ingredient_details": [
+      { "name": "paneer", "quantity": "200 g cubed" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "lemon juice", "quantity": "1 tbsp" },
+      { "name": "capsicum", "quantity": "1 chopped" },
+      { "name": "onion", "quantity": "1 chopped" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Marinate paneer, capsicum, and onion with yogurt, spices, and lemon juice for 1 hr. Skewer and grill or bake till golden. Serve with green chutney.",
+    "cuisine": "North Indian",
+    "prep_time": "1 hr 15 mins",
+    "image_url": "/static/images/paneer_tikka.jpg"
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "ingredient_details": [
+      { "name": "paneer", "quantity": "200 g" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "tomato puree", "quantity": "1 cup" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "butter", "quantity": "3 tbsp" },
+      { "name": "cream", "quantity": "1/4 cup" },
+      { "name": "cashew paste", "quantity": "2 tbsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat butter, sauté onions and ginger garlic paste. Add tomato puree, chili powder, garam masala, and cook. Add cashew paste and cream. Simmer, then add paneer cubes. Cook for 5 minutes and serve hot with naan or rice.",
+    "cuisine": "North Indian",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/paneer_butter_masala.jpg"
+  },
+  {
+    "name": "Gobi Manchurian",
+    "ingredient_details": [
+      { "name": "cauliflower florets", "quantity": "2 cups" },
+      { "name": "cornflour", "quantity": "1/2 cup" },
+      { "name": "all-purpose flour", "quantity": "1/2 cup" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "soy sauce", "quantity": "2 tbsp" },
+      { "name": "chili sauce", "quantity": "1 tbsp" },
+      { "name": "vinegar", "quantity": "1 tsp" },
+      { "name": "spring onion", "quantity": "2 stalks" },
+      { "name": "oil", "quantity": "for deep frying" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Coat cauliflower with flour, cornflour, and salt, deep fry till crisp. Heat oil, sauté garlic paste, add sauces, and fried cauliflower. Toss well, garnish with spring onion, and serve hot.",
+    "cuisine": "Indo-Chinese",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/gobi_manchurian.jpg"
+  },
+  {
+    "name": "Malai Kofta",
+    "ingredient_details": [
+      { "name": "paneer", "quantity": "200 g grated" },
+      { "name": "boiled potatoes", "quantity": "2 medium mashed" },
+      { "name": "cornflour", "quantity": "2 tbsp" },
+      { "name": "cashew paste", "quantity": "2 tbsp" },
+      { "name": "cream", "quantity": "2 tbsp" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "tomato puree", "quantity": "1 cup" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "ghee", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Make kofta balls with paneer, potatoes, and cornflour, deep fry. Sauté onions, ginger garlic paste, tomato puree, and cashew paste. Add cream, salt, and kofta. Serve hot with naan.",
+    "cuisine": "North Indian",
+    "prep_time": "1 hr",
+    "image_url": "/static/images/malai_kofta.jpg"
+  },
+  {
+    "name": "Butter Chicken",
+    "ingredient_details": [
+      { "name": "chicken", "quantity": "500 g boneless" },
+      { "name": "butter", "quantity": "3 tbsp" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato puree", "quantity": "1 cup" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "fresh cream", "quantity": "1/2 cup" },
+      { "name": "cashew paste", "quantity": "2 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "kasuri methi", "quantity": "1 tsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Marinate chicken with spices and cook till tender. In a pan, melt butter and fry onions. Add ginger garlic paste, tomato puree, and cook. Add cashew paste, cream, and spices. Mix in cooked chicken. Garnish with cream and kasuri methi.",
+    "cuisine": "North Indian",
+    "prep_time": "45 mins",
+    "image_url": "/static/images/butter_chicken.jpg"
+  },
+  {
+    "name": "Chicken Fry",
+    "ingredient_details": [
+      { "name": "chicken", "quantity": "500 g" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "corn flour", "quantity": "2 tbsp" },
+      { "name": "rice flour", "quantity": "2 tbsp" },
+      { "name": "lemon juice", "quantity": "1 tbsp" },
+      { "name": "oil", "quantity": "for deep fry" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Marinate chicken with spices, flours, and lemon juice for 30 mins. Heat oil and deep fry till golden and crispy. Serve hot with onion rings and lemon wedges.",
+    "cuisine": "South Indian",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/chicken_fry.jpg"
+  },
+  {
+    "name": "Chicken 65",
+    "ingredient_details": [
+      { "name": "chicken", "quantity": "500 g boneless" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "corn flour", "quantity": "2 tbsp" },
+      { "name": "egg", "quantity": "1" },
+      { "name": "curry leaves", "quantity": "10 leaves" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "oil", "quantity": "for deep fry" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Marinate chicken with spices, egg, and flour. Deep fry till golden. Temper with curry leaves and green chilies in hot oil and toss fried chicken in it.",
+    "cuisine": "Hyderabadi",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/chicken65.jpg"
+  },
+  {
+    "name": "Chicken Tandoori ",
+    "ingredient_details": [
+      { "name": "chicken ", "quantity": "1 whole (1 kg)" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "lemon juice", "quantity": "2 tbsp" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Make cuts on chicken and marinate with yogurt, spices, and lemon juice for 6 hours. Roast in oven or tandoor till cooked and smoky. Serve with onion and lemon.",
+    "cuisine": "Punjabi",
+    "prep_time": "1 hr 30 mins (includes marination)",
+    "image_url": "/static/images/tandoori_chicken.jpg"
+  },
+  {
+    "name": "Chicken Tikka",
+    "ingredient_details": [
+      { "name": "boneless chicken", "quantity": "500 g" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "lemon juice", "quantity": "1 tbsp" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Marinate chicken pieces with yogurt, spices, and lemon juice for 2 hours. Skewer and grill in oven or on tandoor till smoky and cooked. Serve with mint chutney.",
+    "cuisine": "Mughlai",
+    "prep_time": "1 hr 30 mins (includes marination)",
+    "image_url": "/static/images/chicken_tikka.jpg"
+  },
+  {
+    "name": "Chicken Lollipop",
+    "ingredient_details": [
+      { "name": "chicken wings", "quantity": "8 pieces" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "red chili paste", "quantity": "1 tbsp" },
+      { "name": "soy sauce", "quantity": "1 tbsp" },
+      { "name": "corn flour", "quantity": "3 tbsp" },
+      { "name": "maida", "quantity": "2 tbsp" },
+      { "name": "egg", "quantity": "1" },
+      { "name": "oil", "quantity": "for deep fry" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Shape chicken wings into lollipops. Marinate with spices and sauces. Coat in flour batter and deep fry till crispy. Serve with schezwan sauce.",
+    "cuisine": "Indo-Chinese",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/chicken_lollipop.jpg"
+  },
+  {
+    "name": "Chicken Shawarma",
+    "ingredient_details": [
+      { "name": "boneless chicken", "quantity": "500 g" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "garlic paste", "quantity": "1 tbsp" },
+      { "name": "paprika", "quantity": "1 tsp" },
+      { "name": "cumin powder", "quantity": "1 tsp" },
+      { "name": "lemon juice", "quantity": "2 tbsp" },
+      { "name": "pita bread", "quantity": "4" },
+      { "name": "tahini sauce", "quantity": "1/4 cup" },
+      { "name": "vegetables (lettuce, cucumber, onion)", "quantity": "1 cup sliced" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Marinate chicken with yogurt, garlic, spices, and lemon juice. Grill till juicy. Slice and stuff in pita bread with veggies and tahini sauce. Serve wrapped.",
+    "cuisine": "Middle Eastern",
+    "prep_time": "1 hr",
+    "image_url": "/static/images/chicken_shawarma.jpg"
+  },
+  {
+    "name": "Chicken Kebab",
+    "ingredient_details": [
+      { "name": "minced chicken", "quantity": "500 g" },
+      { "name": "onion", "quantity": "1 finely chopped" },
+      { "name": "green chili", "quantity": "2 finely chopped" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "coriander leaves", "quantity": "2 tbsp chopped" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "bread crumbs", "quantity": "1/2 cup" },
+      { "name": "egg", "quantity": "1" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Mix minced chicken with onion, chili, spices, bread crumbs, and egg. Shape into kebabs on skewers. Grill or shallow fry till golden brown.",
+    "cuisine": "Mughlai",
+    "prep_time": "45 mins",
+    "image_url": "/static/images/chicken_kebab.jpg"
+  },
+  {
+    "name": "Chicken Soup",
+    "ingredient_details": [
+      { "name": "chicken (with bones)", "quantity": "250 g" },
+      { "name": "onion", "quantity": "1 small" },
+      { "name": "carrot", "quantity": "1" },
+      { "name": "ginger garlic paste", "quantity": "1 tsp" },
+      { "name": "black pepper", "quantity": "1 tsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "water", "quantity": "4 cups" },
+      { "name": "coriander leaves", "quantity": "1 tbsp" }
+    ],
+    "making_process": "Boil chicken with onion, carrot, ginger garlic paste, salt, and pepper till chicken is tender. Strain broth and shred chicken. Garnish with coriander leaves and serve hot.",
+    "cuisine": "Continental",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/chicken_soup.jpg"
+  },
+  {
+    "name": "Chicken Biryani",
+    "ingredient_details": [
+      { "name": "chicken", "quantity": "1 kg" },
+      { "name": "basmati rice", "quantity": "2 cups" },
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "3 tbsp" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "mint leaves", "quantity": "15 leaves" },
+      { "name": "coriander leaves", "quantity": "15 leaves" },
+      { "name": "biryani masala", "quantity": "2 tbsp" },
+      { "name": "turmeric powder", "quantity": "1 tsp" },
+      { "name": "red chili powder", "quantity": "1 tbsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "ghee", "quantity": "2 tbsp" },
+      { "name": "oil", "quantity": "4 tbsp" },
+      { "name": "water", "quantity": "as needed" }
+    ],
+    "making_process": "Begin by marinating the chicken with yogurt and spices for one hour. Heat oil in a pan, add sliced onions and fry till golden brown. Add ginger garlic paste and cook for a minute. Add the marinated chicken and cook until tender. Add chopped tomatoes and mix well. In a separate pot, parboil the basmati rice. Layer the cooked chicken and rice in a heavy-bottomed pot, add mint and coriander leaves. Cover and cook on low flame for 30 minutes. Serve hot garnished with fried onions.",
+    "cuisine": "Mughlai",
+    "prep_time": "50 mins",
+    "image_url": "/static/images/chicken_biryani.jpg"
+  },
+  {
+    "name": "Chicken Manchurian",
+    "ingredient_details": [
+      { "name": "boneless chicken", "quantity": "500 g" },
+      { "name": "corn flour", "quantity": "3 tbsp" },
+      { "name": "maida", "quantity": "2 tbsp" },
+      { "name": "egg", "quantity": "1" },
+      { "name": "soy sauce", "quantity": "2 tbsp" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "green chili", "quantity": "2 chopped" },
+      { "name": "capsicum", "quantity": "1 diced" },
+      { "name": "onion", "quantity": "1 diced" },
+      { "name": "tomato ketchup", "quantity": "2 tbsp" },
+      { "name": "oil", "quantity": "for frying" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Mix chicken with flour, egg, and spices. Deep fry till golden. In another pan, sauté onion, capsicum, chili, and sauces. Add fried chicken and toss well.",
+    "cuisine": "Indo-Chinese",
+    "prep_time": "45 mins",
+    "image_url": "/static/images/chicken_manchurian.jpg"
+  },
+  {
+    "name": "Chili Chicken",
+    "ingredient_details": [
+      { "name": "boneless chicken", "quantity": "500 g" },
+      { "name": "corn flour", "quantity": "3 tbsp" },
+      { "name": "maida", "quantity": "2 tbsp" },
+      { "name": "soy sauce", "quantity": "2 tbsp" },
+      { "name": "vinegar", "quantity": "1 tbsp" },
+      { "name": "green chili", "quantity": "3 slit" },
+      { "name": "capsicum", "quantity": "1 diced" },
+      { "name": "onion", "quantity": "1 diced" },
+      { "name": "garlic", "quantity": "6 cloves chopped" },
+      { "name": "spring onion", "quantity": "2 tbsp chopped" },
+      { "name": "oil", "quantity": "for frying" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Coat chicken with flours and fry. Heat oil, sauté garlic, onion, capsicum, and chilies. Add sauces, vinegar, and fried chicken. Garnish with spring onion.",
+    "cuisine": "Indo-Chinese",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/chili_chicken.webp"
+  },
+  {
+    "name": "Chicken Noodles",
+    "ingredient_details": [
+      { "name": "noodles", "quantity": "200 g" },
+      { "name": "boneless chicken", "quantity": "200 g" },
+      { "name": "carrot", "quantity": "1 julienned" },
+      { "name": "capsicum", "quantity": "1 sliced" },
+      { "name": "cabbage", "quantity": "1 cup shredded" },
+      { "name": "soy sauce", "quantity": "2 tbsp" },
+      { "name": "vinegar", "quantity": "1 tbsp" },
+      { "name": "green chili sauce", "quantity": "1 tbsp" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Boil noodles and keep aside. Stir fry chicken and vegetables. Add sauces and cooked noodles. Toss well and serve hot.",
+    "cuisine": "Indo-Chinese",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/chicken_noodles.jpg"
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "ingredient_details": [
+      { "name": "cooked rice", "quantity": "3 cups" },
+      { "name": "boneless chicken", "quantity": "200 g" },
+      { "name": "egg", "quantity": "2" },
+      { "name": "carrot", "quantity": "1 diced" },
+      { "name": "capsicum", "quantity": "1 diced" },
+      { "name": "spring onion", "quantity": "2 tbsp chopped" },
+      { "name": "soy sauce", "quantity": "2 tbsp" },
+      { "name": "vinegar", "quantity": "1 tbsp" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Scramble eggs and set aside. Stir fry chicken, add veggies and sauces. Mix in rice and scrambled eggs. Toss well and serve hot.",
+    "cuisine": "Indo-Chinese",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/chicken_fried_rice.webp"
+  },
+  {
+    "name": "Chicken Pakora",
+    "ingredient_details": [
+      { "name": "chicken", "quantity": "300 g small pieces" },
+      { "name": "besan (gram flour)", "quantity": "1 cup" },
+      { "name": "rice flour", "quantity": "2 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "curry leaves", "quantity": "10 leaves" },
+      { "name": "green chili", "quantity": "2 chopped" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil", "quantity": "for deep fry" }
+    ],
+    "making_process": "Mix chicken with flours, spices, and water into a thick batter. Deep fry in hot oil till crispy. Serve with green chutney.",
+    "cuisine": "South Indian",
+    "prep_time": "25 mins",
+    "image_url": "/static/images/chicken_pakora.jpg"
+  },
+  {
+    "name": "Chicken Sandwich",
+    "ingredient_details": [
+      { "name": "bread slices", "quantity": "4" },
+      { "name": "boiled shredded chicken", "quantity": "1 cup" },
+      { "name": "mayonnaise", "quantity": "3 tbsp" },
+      { "name": "cucumber", "quantity": "1 small sliced" },
+      { "name": "tomato", "quantity": "1 small sliced" },
+      { "name": "lettuce", "quantity": "2 leaves" },
+      { "name": "black pepper", "quantity": "1/2 tsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Mix shredded chicken with mayonnaise, pepper, and salt. Spread mixture on bread slices, layer with cucumber, tomato, and lettuce. Cover with another slice and serve.",
+    "cuisine": "Continental",
+    "prep_time": "15 mins",
+    "image_url": "/static/images/chicken_sandwich.webp"
+  },
+  {
+    "name": "Chicken Pizza",
+    "ingredient_details": [
+      { "name": "pizza base", "quantity": "1 large" },
+      { "name": "chicken (cooked & shredded)", "quantity": "1 cup" },
+      { "name": "pizza sauce", "quantity": "1/2 cup" },
+      { "name": "mozzarella cheese", "quantity": "1 cup grated" },
+      { "name": "capsicum", "quantity": "1/2 cup sliced" },
+      { "name": "onion", "quantity": "1/2 cup sliced" },
+      { "name": "oregano", "quantity": "1 tsp" },
+      { "name": "chili flakes", "quantity": "1/2 tsp" }
+    ],
+    "making_process": "Spread pizza sauce on base, add shredded chicken, veggies, and cheese. Bake in oven till cheese melts. Sprinkle oregano and chili flakes before serving.",
+    "cuisine": "Italian",
+    "prep_time": "25 mins",
+    "image_url": "/static/images/chicken_pizza.jpg"
+  },
+  {
+    "name": "Chicken Popcorn",
+    "ingredient_details": [
+      { "name": "boneless chicken", "quantity": "250 g bite-size pieces" },
+      { "name": "maida", "quantity": "1/2 cup" },
+      { "name": "corn flour", "quantity": "1/4 cup" },
+      { "name": "egg", "quantity": "1" },
+      { "name": "black pepper", "quantity": "1 tsp" },
+      { "name": "paprika", "quantity": "1 tsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil", "quantity": "for deep fry" }
+    ],
+    "making_process": "Marinate chicken with spices and egg. Coat in flour mix. Deep fry till golden crispy. Serve hot with garlic mayo dip.",
+    "cuisine": "American",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/chicken_popcorn.jpg"
+  },
+  {
+    "name": "Chettinad Chicken Curry",
+    "ingredient_details": [
+      { "name": "chicken", "quantity": "500 g" },
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "coconut paste", "quantity": "1/4 cup" },
+      { "name": "Chettinad masala", "quantity": "2 tbsp" },
+      { "name": "curry leaves", "quantity": "10" },
+      { "name": "oil", "quantity": "4 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté onions, curry leaves, and ginger garlic paste. Add tomatoes and cook till soft. Add Chettinad masala and chicken. Cook for 15 minutes. Add coconut paste and simmer until chicken is tender. Serve with rice.",
+    "cuisine": "Chettinad (Tamil Nadu)",
+    "prep_time": "50 mins",
+    "image_url": "/static/images/chettinad_chicken_curry.jpg"
+  },
+  {
+    "name": "Fish Fry",
+    "ingredient_details": [
+      { "name": "fish", "quantity": "500 g" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "lemon juice", "quantity": "2 tbsp" },
+      { "name": "rice flour", "quantity": "2 tbsp" },
+      { "name": "oil", "quantity": "for shallow fry" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Marinate fish with spices, lemon juice, and flour. Shallow fry in oil till golden and crispy. Serve with onion rings and lemon wedges.",
+    "cuisine": "Indian",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/fish_fry.jpg"
+  },
+  {
+    "name": "Fish Biryani",
+    "ingredient_details": [
+      { "name": "fish", "quantity": "500 g" },
+      { "name": "basmati rice", "quantity": "2 cups" },
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "mint leaves", "quantity": "10" },
+      { "name": "coriander leaves", "quantity": "10" },
+      { "name": "biryani masala", "quantity": "2 tbsp" },
+      { "name": "ghee", "quantity": "2 tbsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Marinate fish with yogurt and spices. Fry onions, add ginger garlic paste, tomatoes, and fish. Parboil rice separately. Layer fish and rice with mint & coriander, cook on dum. Serve hot.",
+    "cuisine": "Hyderabadi",
+    "prep_time": "50 mins",
+    "image_url": "/static/images/fish_biryani.webp"
+  },
+  {
+    "name": "Fish Pakora",
+    "ingredient_details": [
+      { "name": "fish", "quantity": "300 g" },
+      { "name": "besan (gram flour)", "quantity": "1 cup" },
+      { "name": "rice flour", "quantity": "2 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "coriander leaves", "quantity": "2 tbsp chopped" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil", "quantity": "for deep fry" }
+    ],
+    "making_process": "Mix fish with flours, spices, and ginger garlic paste. Add little water for coating batter. Deep fry till crispy and golden. Serve with chutney.",
+    "cuisine": "Punjabi",
+    "prep_time": "25 mins",
+    "image_url": "/static/images/fish_pakora.jpg"
+  },
+  {
+    "name": "Fish Cutlet",
+    "ingredient_details": [
+      { "name": "fish", "quantity": "300 g" },
+      { "name": "boiled potato", "quantity": "2 medium" },
+      { "name": "onion", "quantity": "1 small" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "ginger garlic paste", "quantity": "1 tsp" },
+      { "name": "bread crumbs", "quantity": "1 cup" },
+      { "name": "egg", "quantity": "1" },
+      { "name": "coriander leaves", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil", "quantity": "for shallow fry" }
+    ],
+    "making_process": "Boil fish and shred. Mix with mashed potato, onion, chilies, spices, and coriander. Shape into cutlets, dip in egg, coat with bread crumbs, and shallow fry till golden.",
+    "cuisine": "Indian",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/fish_cutlet.png"
+  },
+  {
+    "name": "Goan Fish Curry",
+    "ingredient_details": [
+      { "name": "fish", "quantity": "500 g" },
+      { "name": "coconut grated", "quantity": "1 cup" },
+      { "name": "dry red chilies", "quantity": "4" },
+      { "name": "coriander seeds", "quantity": "2 tsp" },
+      { "name": "cumin seeds", "quantity": "1 tsp" },
+      { "name": "garlic cloves", "quantity": "3" },
+      { "name": "tamarind", "quantity": "1 small ball" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Grind coconut, red chilies, coriander, cumin, garlic, and tamarind into a paste. Heat oil, sauté onion, add masala paste and turmeric. Add water, bring to boil, then add fish pieces. Cook till tender.",
+    "cuisine": "Goan",
+    "prep_time": "45 mins",
+    "image_url": "/static/images/goan_fish_curry.jpg"
+  },
+  {
+    "name": "Fish Moilee",
+    "ingredient_details": [
+      { "name": "fish", "quantity": "500 g" },
+      { "name": "coconut milk", "quantity": "2 cups" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "ginger", "quantity": "1 inch" },
+      { "name": "green chilies", "quantity": "3" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "curry leaves", "quantity": "10" },
+      { "name": "coconut oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat coconut oil, sauté onion, ginger, green chilies, and curry leaves. Add turmeric, salt, and coconut milk. Add fish pieces and simmer till cooked. Serve with appam or rice.",
+    "cuisine": "Kerala",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/fish_moilee.jpg"
+  },
+  {
+    "name": "Fish Stew",
+    "ingredient_details": [
+      { "name": "fish", "quantity": "300 g" },
+      { "name": "potato", "quantity": "1 large" },
+      { "name": "carrot", "quantity": "1 medium" },
+      { "name": "onion", "quantity": "1 small" },
+      { "name": "celery", "quantity": "1 stick" },
+      { "name": "garlic", "quantity": "2 cloves" },
+      { "name": "tomato", "quantity": "1 large" },
+      { "name": "black pepper", "quantity": "1 tsp" },
+      { "name": "olive oil", "quantity": "2 tbsp" },
+      { "name": "water/stock", "quantity": "3 cups" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat olive oil, sauté onion, garlic, celery, carrot, and potato. Add chopped tomato, stock, salt, and pepper. Cook until veggies are soft. Add fish and simmer until cooked.",
+    "cuisine": "Continental",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/fish_stew.jpg"
+  },
+  {
+    "name": "Fish Curry",
+    "ingredient_details": [
+      { "name": "fish", "quantity": "500 g" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "coconut milk", "quantity": "1 cup" },
+      { "name": "tamarind", "quantity": "small lemon size" },
+      { "name": "red chili powder", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "curry leaves", "quantity": "6" },
+      { "name": "mustard seeds", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, splutter mustard seeds, add curry leaves, onions, and tomatoes. Add spices, tamarind extract, and coconut milk. Bring to boil and add fish pieces. Cook gently until fish is done. Serve with steamed rice.",
+    "cuisine": "South Indian",
+    "prep_time": "45 mins",
+    "image_url": "/static/images/fish_curry.jpg"
+  },
+  {
+    "name": "Fish Curry (Kerala Style)",
+    "ingredient_details": [
+      { "name": "fish", "quantity": "500 g" },
+      { "name": "coconut milk", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "1 medium" },
+      { "name": "tomato", "quantity": "1 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "turmeric powder", "quantity": "1 tsp" },
+      { "name": "red chili powder", "quantity": "2 tsp" },
+      { "name": "curry leaves", "quantity": "10 leaves" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté onions, curry leaves, and ginger garlic paste. Add tomatoes, chili, turmeric, and chili powder. Cook until oil separates. Add fish and coconut milk. Simmer until fish is cooked. Serve hot with rice.",
+    "cuisine": "Kerala",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/fish_curry_kerala.jpg"
+  },
+  {
+    "name": "Mutton Rogan Josh",
+    "ingredient_details": [
+      { "name": "mutton", "quantity": "500 g" },
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "red chili powder", "quantity": "2 tsp" },
+      { "name": "turmeric powder", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "cinnamon", "quantity": "1 stick" },
+      { "name": "cloves", "quantity": "3" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté whole spices, onions, and ginger garlic paste. Add mutton, fry for 10 minutes. Add yogurt, chili powder, turmeric, garam masala, and salt. Cook with water until tender. Serve hot with rice.",
+    "cuisine": "Kashmiri",
+    "prep_time": "1 hr 30 mins",
+    "image_url": "/static/images/mutton_rogan_josh.jpg"
+  },
+  {
+    "name": "Mutton Biryani",
+    "ingredient_details": [
+      { "name": "mutton", "quantity": "750 g" },
+      { "name": "basmati rice", "quantity": "3 cups" },
+      { "name": "onion", "quantity": "3 large" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "biryani masala", "quantity": "2 tbsp" },
+      { "name": "mint leaves", "quantity": "1/2 cup" },
+      { "name": "coriander leaves", "quantity": "1/2 cup" },
+      { "name": "ghee", "quantity": "3 tbsp" },
+      { "name": "oil", "quantity": "4 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Marinate mutton with yogurt and spices. Cook rice till 70% done. Fry onions, add marinated mutton, cook till tender. Layer mutton and rice with mint/coriander, cook on dum. Serve hot.",
+    "cuisine": "Hyderabadi",
+    "prep_time": "1.5 hrs",
+    "image_url": "/static/images/mutton_biryani.jpg"
+  },
+  {
+    "name": "Mutton Korma",
+    "ingredient_details": [
+      { "name": "mutton", "quantity": "500 g" },
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "cashew nuts", "quantity": "10" },
+      { "name": "poppy seeds", "quantity": "1 tbsp" },
+      { "name": "coriander powder", "quantity": "2 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "ghee", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Grind cashews and poppy seeds to paste. Fry onions in ghee, add ginger garlic paste, yogurt, and masala. Add mutton, cook till tender. Add cashew paste for richness and serve with naan.",
+    "cuisine": "Mughlai",
+    "prep_time": "1 hr",
+    "image_url": "/static/images/mutton_korma.jpg"
+  },
+  {
+    "name": "Mutton Curry",
+    "ingredient_details": [
+      { "name": "mutton pieces", "quantity": "500 g" },
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "red chili powder", "quantity": "1 tbsp" },
+      { "name": "coriander powder", "quantity": "2 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "water", "quantity": "as required" }
+    ],
+    "making_process": "Heat oil, sauté onions till golden. Add ginger garlic paste, tomatoes, and spices. Add mutton pieces, fry, then add water. Pressure cook till soft and serve hot with rice or roti.",
+    "cuisine": "Indian",
+    "prep_time": "1 hr",
+    "image_url": "/static/images/mutton_curry.jpg"
+  },
+  {
+    "name": "Mutton Keema",
+    "ingredient_details": [
+      { "name": "minced mutton", "quantity": "500 g" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "green peas", "quantity": "1/2 cup" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté onion, ginger garlic paste, and tomato. Add minced mutton, peas, and spices. Cook until keema turns dry and masala coats well. Serve with pav or paratha.",
+    "cuisine": "North Indian",
+    "prep_time": "45 mins",
+    "image_url": "/static/images/mutton_keema.jpg"
+  },
+  {
+    "name": "Mutton Chops",
+    "ingredient_details": [
+      { "name": "mutton chops", "quantity": "500 g" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "coriander powder", "quantity": "2 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "lemon juice", "quantity": "1 tbsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Marinate mutton chops with spices and lemon juice. Pan fry in oil until browned, then cook covered till chops are tender. Serve hot with onions and chutney.",
+    "cuisine": "Indian",
+    "prep_time": "1 hr",
+    "image_url": "/static/images/mutton_chops.jpg"
+  },
+  {
+    "name": "Mutton Handi",
+    "ingredient_details": [
+      { "name": "mutton", "quantity": "600 g" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "yogurt", "quantity": "1/2 cup" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "coriander powder", "quantity": "2 tsp" },
+      { "name": "cream", "quantity": "3 tbsp" },
+      { "name": "ghee", "quantity": "2 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "In a handi, heat ghee and fry onions till golden. Add ginger garlic paste, tomatoes, yogurt, and spices. Add mutton, cook slowly until tender. Stir in cream before serving.",
+    "cuisine": "Mughlai",
+    "prep_time": "1.5 hrs",
+    "image_url": "/static/images/mutton_handi.jpg"
+  },
+  {
+    "name": "Mutton Soup",
+    "ingredient_details": [
+      { "name": "mutton with bones", "quantity": "300 g" },
+      { "name": "onion", "quantity": "1 small" },
+      { "name": "tomato", "quantity": "1 small" },
+      { "name": "ginger garlic paste", "quantity": "1 tsp" },
+      { "name": "black pepper", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/4 tsp" },
+      { "name": "coriander leaves", "quantity": "2 tbsp" },
+      { "name": "oil", "quantity": "1 tbsp" },
+      { "name": "water", "quantity": "4 cups" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Pressure cook mutton with onion, tomato, ginger garlic, turmeric, and pepper until tender. Strain broth, add coriander leaves, and serve hot as a soup.",
+    "cuisine": "South Indian",
+    "prep_time": "45 mins",
+    "image_url": "/static/images/mutton_soup.jpg"
+  },
+  {
+    "name": "Mutton Fry",
+    "ingredient_details": [
+      { "name": "mutton", "quantity": "500 g" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "green chilies", "quantity": "3" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "curry leaves", "quantity": "10" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Pressure cook mutton with turmeric and salt until soft. Heat oil, fry onions, ginger garlic paste, and spices. Add cooked mutton and fry till dry and crispy. Garnish with curry leaves.",
+    "cuisine": "Andhra",
+    "prep_time": "1 hr",
+    "image_url": "/static/images/mutton_fry.jpg"
+  },
+  {
+    "name": "Prawn Masala",
+    "ingredient_details": [
+      { "name": "prawns", "quantity": "500 g" },
+      { "name": "onion", "quantity": "1 large" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "coriander leaves", "quantity": "2 tbsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, sauté onions and ginger garlic paste. Add tomatoes, turmeric, chili powder, and salt. Add prawns and cook till done. Sprinkle garam masala and coriander leaves. Serve hot with rice or roti.",
+    "cuisine": "Indian",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/prawn_masala.jpg"
+  },
+  {
+    "name": "Butter Garlic Prawns",
+    "ingredient_details": [
+      { "name": "prawns", "quantity": "500 g" },
+      { "name": "butter", "quantity": "3 tbsp" },
+      { "name": "garlic", "quantity": "8 cloves" },
+      { "name": "green chili", "quantity": "2" },
+      { "name": "lemon juice", "quantity": "1 tbsp" },
+      { "name": "coriander leaves", "quantity": "2 tbsp chopped" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "black pepper", "quantity": "1 tsp" }
+    ],
+    "making_process": "Clean prawns and marinate with salt and pepper. Heat butter in a pan, add garlic and green chilies, sauté until golden. Add prawns and cook until they turn pink. Sprinkle lemon juice and garnish with coriander leaves. Serve hot.",
+    "cuisine": "Goan",
+    "prep_time": "25 mins",
+    "image_url": "/static/images/butter_garlic_prawns.jpg"
+  },
+  {
+    "name": "Andhra Royyala Vepudu (Prawns Fry)",
+    "ingredient_details": [
+      { "name": "prawns", "quantity": "500 g" },
+      { "name": "onion", "quantity": "2 large" },
+      { "name": "green chili", "quantity": "4" },
+      { "name": "ginger garlic paste", "quantity": "2 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "curry leaves", "quantity": "10 leaves" },
+      { "name": "garam masala", "quantity": "1 tsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Clean and devein prawns. Heat oil, fry onions and green chilies until golden. Add ginger garlic paste, turmeric, chili powder, and prawns. Cook on medium flame until water evaporates and prawns fry well. Finish with garam masala and curry leaves.",
+    "cuisine": "Andhra",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/andhra_prawns_fry.webp"
+  },
+  {
+    "name": "Andhra Prawns Iguru",
+    "ingredient_details": [
+      { "name": "prawns", "quantity": "500 g" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "green chili", "quantity": "3" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "red chili powder", "quantity": "1.5 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "coriander powder", "quantity": "1 tsp" },
+      { "name": "curry leaves", "quantity": "8 leaves" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil and fry onions till golden. Add ginger garlic paste, tomatoes, and spices. Cook till tomatoes turn mushy. Add prawns and cook until masala coats them well and gravy thickens. Garnish with curry leaves.",
+    "cuisine": "Andhra",
+    "prep_time": "35 mins",
+    "image_url": "/static/images/andhra_prawns_iguru.webp"
+  },
+  {
+    "name": "Andhra Gongura Royyalu (Gongura Prawns)",
+    "ingredient_details": [
+      { "name": "prawns", "quantity": "500 g" },
+      { "name": "gongura leaves", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "green chili", "quantity": "4" },
+      { "name": "ginger garlic paste", "quantity": "1 tbsp" },
+      { "name": "red chili powder", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Boil gongura leaves till soft, make paste. Fry onions, green chilies, ginger garlic paste, and prawns. Add chili powder, turmeric, salt, and cook till prawns are done. Finally add gongura paste, mix and fry till masala coats prawns.",
+    "cuisine": "Andhra",
+    "prep_time": "40 mins",
+    "image_url": "/static/images/andhra_gongura_prawns.jpg"
+  },
+  {
+    "name": "Andhra Prawns Pulusu",
+    "ingredient_details": [
+      { "name": "prawns", "quantity": "500 g" },
+      { "name": "tamarind pulp", "quantity": "1 cup" },
+      { "name": "onion", "quantity": "2 medium" },
+      { "name": "tomato", "quantity": "2 medium" },
+      { "name": "red chili powder", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/2 tsp" },
+      { "name": "fenugreek seeds", "quantity": "1/2 tsp" },
+      { "name": "mustard seeds", "quantity": "1/2 tsp" },
+      { "name": "curry leaves", "quantity": "8 leaves" },
+      { "name": "oil", "quantity": "3 tbsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "making_process": "Heat oil, add mustard and fenugreek seeds. Fry onions and tomatoes till soft. Add spices, prawns, and cook. Add tamarind pulp and simmer till prawns absorb pulusu flavor. Garnish with curry leaves.",
+    "cuisine": "Andhra",
+    "prep_time": "45 mins",
+    "image_url": "/static/images/andhra_prawns_pulusu.webp"
+  },
+  {
+    "name": "Andhra Prawns Pakodi",
+    "ingredient_details": [
+      { "name": "prawns (small)", "quantity": "300 g" },
+      { "name": "gram flour", "quantity": "1 cup" },
+      { "name": "rice flour", "quantity": "1/2 cup" },
+      { "name": "red chili powder", "quantity": "1 tbsp" },
+      { "name": "turmeric powder", "quantity": "1/4 tsp" },
+      { "name": "ginger garlic paste", "quantity": "1 tsp" },
+      { "name": "curry leaves", "quantity": "8 leaves" },
+      { "name": "salt", "quantity": "to taste" },
+      { "name": "oil", "quantity": "for deep frying" }
+    ],
+    "making_process": "Mix prawns with flours, chili powder, turmeric, salt, ginger garlic paste, and little water to form coating batter. Heat oil and deep fry until golden crispy. Garnish with fried curry leaves.",
+    "cuisine": "Andhra",
+    "prep_time": "30 mins",
+    "image_url": "/static/images/andhra_prawns_pakodi.jpg"
+  }
+]

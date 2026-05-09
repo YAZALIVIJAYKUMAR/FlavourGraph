@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FlavorGraph Recipe Suggestions</title>
+  <style>
+    /* Basic styling */
+    body { font-family: Arial, sans-serif; background: #f1f8ff; margin: 0; padding: 2em; }
+    h2 { font-weight: bold; margin-bottom: 1em; }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+      width: 280px;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: box-shadow 0.13s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover { box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+    .card-img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-bottom: 1px solid #eee;
+    }
+    .card-content {
+      padding: 13px 16px 16px 16px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .card-title {
+      font-weight: 700;
+      font-size: 1.12rem;
+      color: #1666cf;
+      margin: 0 0 6px 0;
+    }
+    .card-info {
+      font-size: 0.93rem;
+      color: #666;
+      margin-bottom: 6px;
+    }
+    .card-ingredients {
+      text-align: left;
+      margin-bottom: 6px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px 8px;
+      font-size: 0.9rem;
+      color: #444;
+      line-height: 1.6;
+    }
+    .card-ingredients span {
+      background: #eef4ff;
+      color: #2563eb;
+      border-radius: 8px;
+      padding: 3px 11px;
+      font-size: 0.93em;
+      display: inline-block;
+      margin: 0;
+    }
+    .more-ing {
+      background: none;
+      color: #2563eb;
+      font-style: italic;
+      padding: 0 3px;
+      display: inline-block;
+      margin: 0;
+    }
+    .pill-container {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      font-weight: 600;
+      margin-top: 6px;
+    }
+    .pill-have {
+      background-color: #e8f0fe;
+      color: #1666cf;
+      border-radius: 999px;
+      padding: 7px 18px;
+      font-size: 0.9rem;
+    }
+    .pill-miss {
+      background-color: #fdecea;
+      color: #d93025;
+      border-radius: 999px;
+      padding: 7px 18px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <h2>Recipe suggestions for: <em>{{ user_ingredients }}</em></h2>
+
+  <div class="grid">
+    {% for match in suggestions %}
+      {% set recipe = match.recipe %}
+      <a href="{{ url_for('recipe_detail', name=recipe.name) }}" class="card">
+        <img src="{{ recipe.image_url }}" class="card-img" alt="{{ recipe.name }}">
+        <div class="card-content">
+          <div class="card-title">{{ recipe.name }}</div>
+          <div class="card-info">{{ recipe.cuisine }} | {{ recipe.prep_time }}</div>
+          <div class="card-ingredients">
+            {% set max_ingredients = 9 %}
+            {% for i in recipe.ingredient_details[:max_ingredients] %}
+              <span>{{ i.name }}</span>
+            {% endfor %}
+            {% if recipe.ingredient_details | length > max_ingredients %}
+              <span class="more-ing">+{{ recipe.ingredient_details | length - max_ingredients }} more…</span>
+            {% endif %}
+          </div>
+
+          <div class="pill-container">
+            <span class="pill-have">{{ match.have_count }} have</span>
+            <span class="pill-miss">{{ match.missing_count }} missing</span>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+
+  <a href="/">&#8592; Go back</a>
+</body>
+</html>

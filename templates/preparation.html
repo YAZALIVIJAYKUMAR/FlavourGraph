@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ recipe.name }} - Recipe Details</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f1f8ff; margin: 0; padding: 2em; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 2em; border-radius: 12px; box-shadow: 0 4px 20px rgba(11,111,245,0.1);}
+    h1 { color: #0b6ff5; }
+    img { width: 100%; height: 300px; object-fit: cover; border-radius: 12px; margin-bottom: 1.2em; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { padding: 8px; border-bottom: 1px solid #e8f0fe; text-align: left; }
+    .process { margin-top: 20px; font-size: 1rem; color: #333; white-space: pre-wrap; }
+    .save-btn { background: #0b6ff5; color: white; border: none; padding: 8px 16px; border-radius: 12px; cursor: pointer; margin-top: 18px; }
+    .pill-container {
+      margin-top: 1.2em;
+      display: flex;
+      gap: 12px;
+    }
+    .pill-have {
+      background-color: #e8f0fe;
+      color: #1666cf;
+      border-radius: 999px;
+      padding: 7px 18px;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .pill-miss {
+      background-color: #fdecea;
+      color: #d93025;
+      border-radius: 999px;
+      padding: 7px 18px;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .saved-section {
+      margin-top: 3em;
+      border-top: 1px solid #ddd;
+      padding-top: 2em;
+    }
+    .saved-section h2 {
+      font-weight: 700;
+      color: #0b6ff5;
+      margin-bottom: 1em;
+    }
+    .card-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto 20px auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 6px 22px rgba(11, 111, 245, 0.14);
+      width: 265px;
+      overflow: hidden;
+      text-decoration: none;
+      color: #1666cf;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    .card-img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-bottom: 1px solid #e8f0fe;
+      border-radius: 16px 16px 0 0;
+      user-select:none;
+    }
+    .card-content {
+      padding: 16px 20px 20px 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      user-select:none;
+    }
+    .card-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin: 0 0 6px 0;
+    }
+    .card-info {
+      font-size: 0.9rem;
+      color: #6d7781;
+      margin-bottom: 10px;
+      user-select:none;
+    }
+    .card-ingredients {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px 8px;
+      user-select:none;
+    }
+    .card-ingredients span {
+      background: #e8f0fe;
+      color: #1a73e8;
+      border-radius: 12px;
+      font-size: 0.82rem;
+      padding: 3px 10px;
+      font-weight: 600;
+      user-select:none;
+    }
+    .more-ing {
+      background: none;
+      color: #6d7781;
+      font-style: italic;
+      font-weight: 600;
+      padding-left: 4px;
+      user-select:none;
+    }
+    a.back {
+      display: inline-block;
+      margin-top: 30px;
+      color: #0b5be7;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    a.back:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>{{ recipe.name }}</h1>
+    <img src="{{ recipe.image_url }}" alt="{{ recipe.name }}" />
+
+    <div class="pill-container">
+      <span class="pill-have">{{ have_count }} have</span>
+      <span class="pill-miss">{{ missing_count }} missing</span>
+    </div>
+
+    <h2>Ingredients:</h2>
+    <table>
+      <thead>
+        <tr><th>Ingredient</th><th>Quantity</th></tr>
+      </thead>
+      <tbody>
+        {% for ing in recipe.ingredient_details %}
+          <tr>
+            <td>{{ ing.name }}</td>
+            <td>{{ ing.quantity }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h2>Making Process:</h2>
+    <div class="process">{{ recipe.making_process }}</div>
+
+    <form method="POST" action="/save-recipe">
+      <input type="hidden" name="recipe_name" value="{{ recipe.name }}" />
+      <button class="save-btn" type="submit">Save Recipe</button>
+    </form>
+
+    <section class="saved-section">
+      <h2>Saved Recipes</h2>
+      <div class="card-list">
+        {% for recipe_name in saved_recipes %}
+          {% set found = recipes_data | selectattr("name", "equalto", recipe_name) | list %}
+          {% if found %}
+            {% set rec = found[0] %}
+            <a href="{{ url_for('recipe_detail', name=rec.name) }}" class="card">
+              <img src="{{ rec.image_url }}" class="card-img" alt="{{ rec.name }}" />
+              <div class="card-content">
+                <div class="card-title">{{ rec.name }}</div>
+                <div class="card-info">{{ rec.cuisine }} | {{ rec.prep_time }}</div>
+                <div class="card-ingredients">
+                  {% set max_ingredients = 9 %}
+                  {% for i in rec.ingredient_details[:max_ingredients] %}
+                    <span>{{ i.name }}</span>
+                  {% endfor %}
+                  {% if rec.ingredient_details | length > max_ingredients %}
+                    <span class="more-ing">+{{ rec.ingredient_details | length - max_ingredients }} more…</span>
+                  {% endif %}
+                </div>
+              </div>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <a href="/" class="back">&#8592; Back to home</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>FlavorGraph</title>
+<style>
+:root{
+  --bg:#f1f8ff;
+  --panel:#ffffff;
+  --muted:#6d7781;
+  --accent:#0b6ff5;
+  --accent-600:#084cb5;
+  --pill-have-bg:#e8f0fe;
+  --pill-have-color:#1a73e8;
+  --card-shadow: 0 8px 20px rgba(11,111,245,0.06);
+}
+
+/* Existing styles (unchanged) */
+body{
+  margin:0;
+  font-family: "Segoe UI", Roboto, system-ui, -apple-system, "Helvetica Neue", Arial;
+  background: radial-gradient(1200px 600px at 10% 10%, rgba(11,111,245,0.04), transparent 8%),
+              radial-gradient(1000px 400px at 90% 80%, rgba(3,155,229,0.02), transparent 8%),
+              var(--bg);
+  color: #111827;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:80px;
+}
+.topbar{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 34px;
+  background: var(--topbar-bg-light);
+  border-bottom: 1px solid rgba(11,111,245,0.03);
+  position:sticky;top:0;z-index:40;
+}
+.brand{display:flex;align-items:center;gap:12px;}
+.logo{
+  width:54px;height:54px;border-radius:12px;
+  display:grid;place-items:center;
+  background:linear-gradient(180deg,var(--accent),var(--accent-600));
+  color:#fff;font-weight:700;
+  box-shadow: 0 6px 18px rgba(11,111,245,0.16);
+}
+.brand h1{margin:0;font-size:20px;color:var(--accent);}
+.brand p{margin:0;font-size:13px;color:var(--muted);}
+.main{max-width:1220px;margin:26px auto;padding:18px;}
+.search-wrap{
+  background: linear-gradient(180deg, rgba(255,255,255,0.8), rgba(255,255,255,0.7));
+  border-radius:18px;padding:28px;box-shadow: 0 8px 26px rgba(11,111,245,0.06);
+  display:flex;flex-direction:column;gap:10px;align-items:center;border: 1px solid rgba(11,111,245,0.03);
+}
+.search-row{display:flex;width:100%;max-width:920px;}
+.search-row input{
+  flex:1;padding:16px 18px;border-radius:12px 0 0 12px;
+  border:1px solid rgba(11,111,245,0.06);outline:none;font-size:15px;background:transparent;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.search-row input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 6px var(--accent);
+}
+.search-row button{
+  background:linear-gradient(180deg,var(--accent),var(--accent-600));
+  color:#fff;border:none;padding:0 22px;border-radius:0 12px 12px 0;
+  font-weight:600;cursor:pointer;box-shadow: 0 10px 28px rgba(11,111,245,0.14);
+  transition: background 0.22s ease, transform 0.22s ease, box-shadow 0.3s ease;
+}
+.search-row button:hover, .search-row button:focus {
+  background: linear-gradient(180deg, var(--accent-600), var(--accent));
+  box-shadow: 0 12px 30px rgba(11, 111, 245, 0.25);
+  transform: translateY(-3px);
+}
+.tip {font-size: 13px;color: var(--muted);margin-top: 6px;}
+@media (max-width: 700px) {
+  .search-row {flex-direction: column;}
+  .search-row input,
+  .search-row button {border-radius: 12px;margin-bottom: 10px;}
+}
+h2.saved-heading {
+  color: var(--accent);
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 18px;
+  font-size: 1.3rem;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  margin-left: 6px;
+}
+.card-list {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  max-width: 920px;
+  margin: 0 auto 36px auto;
+  padding-bottom: 10px;
+}
+.card {
+  scroll-snap-align: center;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 22px rgba(11, 111, 245, 0.14);
+  width: 265px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--accent-600);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  animation: fadeIn 0.4s ease forwards;
+  flex-shrink: 0;
+}
+.card:hover, .card:focus-within {
+  transform: scale(1.1);
+  box-shadow: 0 16px 40px rgba(11, 111, 245, 0.3);
+  z-index: 10;
+}
+.card-img {
+  width: 100%;
+  height: 132px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--pill-have-bg);
+  border-radius: 16px 16px 0 0;
+}
+.card-content {
+  padding: 16px 20px 20px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 0 6px 0;
+}
+.card-info {
+  font-size: 0.93rem;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.card-ingredients {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 8px;
+}
+.card-ingredients span {
+  background: var(--pill-have-bg);
+  color: var(--pill-have-color);
+  border-radius: 12px;
+  font-size: 0.82rem;
+  padding: 3px 10px;
+  font-weight: 600;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.more-ing {
+  background: none;
+  color: var(--muted);
+  font-style: italic;
+  font-weight: 600;
+  padding-left: 4px;
+}
+footer {
+  width: 100%;
+  background: var(--pill-have-bg);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -3px 10px rgba(11,111,245,0.1);
+  text-align: center;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 14px;
+  z-index: 999;
+}
+.footer-links a {
+  color: var(--accent);
+  margin: 0 14px;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ====================== NEW CLASSES FOR FORMER INLINE STYLES ====================== */
+.form-container {
+  width: 100%;
+  max-width: 920px;
+}
+.algorithms-section {
+  max-width: 920px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+.algo-pill {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  font-weight: 600;
+  cursor: default;
+}
+.view-algo-btn {
+  padding: 8px 24px;
+  border-radius: 24px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.view-algo-btn:hover {
+  background: var(--accent-600);
+}
+
+/* Modal Styles */
+#algorithmModal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(4px);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background: #fff;
+  max-width: 800px;
+  max-height: 90vh;
+  padding: 24px 32px;
+  border-radius: 20px;
+  overflow-y: auto;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+.modal-title {
+  color: var(--accent);
+  margin-top: 0;
+}
+.algorithm-content {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.close-modal-btn {
+  margin-top: 24px;
+  padding: 8px 20px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="brand">
+      <div class="logo">FG</div>
+      <div>
+        <h1>FlavorGraph</h1>
+        <p>Find recipes from what you have</p>
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
+    <section class="search-wrap" aria-label="Search recipes">
+      <form method="POST" action="/suggest-recipes" class="form-container">
+        <div class="search-row">
+          <input id="ingredients" name="ingredients" placeholder="e.g. tomato, basil, garlic" autocomplete="off" />
+          <button id="findBtn" type="submit">Find recipes</button>
+        </div>
+        <div class="tip">Tip: try "tomato, mozzarella, basil" or "egg, butter, cheddar".</div>
+      </form>
+    </section>
+
+    {% if saved_recipes %}
+      <h2 class="saved-heading">Saved Recipes</h2>
+      <section class="card-list" aria-label="Saved recipes">
+        {% for recipe_name in saved_recipes %}
+          {% set found = recipes_data | selectattr("name", "equalto", recipe_name) | list %}
+          {% if found %}
+            {% set rec = found[0] %}
+            <a href="{{ url_for('recipe_detail', name=rec.name) }}" class="card" tabindex="0">
+              <img src="{{ rec.image_url }}" class="card-img" alt="{{ rec.name }}" />
+              <div class="card-content">
+                <div class="card-title">{{ rec.name }}</div>
+                <div class="card-info">{{ rec.cuisine }} | {{ rec.prep_time }}</div>
+                <div class="card-ingredients">
+                  {% set max_ingredients = 9 %}
+                  {% for i in rec.ingredient_details[:max_ingredients] %}
+                    <span>{{ i.name }}</span>
+                  {% endfor %}
+                  {% if rec.ingredient_details | length > max_ingredients %}
+                    <span class="more-ing">+{{ rec.ingredient_details | length - max_ingredients }} more…</span>
+                  {% endif %}
+                </div>
+              </div>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </section>
+    {% endif %}
+
+    <!-- Algorithms Used Section -->
+    <section class="algorithms-section" aria-label="Algorithms used">
+      <h2 style="color: var(--accent); font-weight: 700; margin-bottom: 16px;">Algorithms Used</h2>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 12px;">
+        <button disabled class="algo-pill">Greedy Matching</button>
+        <button disabled class="algo-pill">Gap Analysis</button>
+        <button disabled class="algo-pill">Smart Substitutions</button>
+        <button disabled class="algo-pill">Backtracking Search</button>
+      </div>
+      <button id="viewAlgorithmBtn" class="view-algo-btn">View Algorithm</button>
+    </section>
+  </main>
+
+  <footer>
+    Designed by Vijay
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/vijay-kumar-bb56b033a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+      <a href="https://github.com/YAZALIVIJAYKUMAR" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+      <a href="mailto:vijaymail@gmail.com">Mail</a>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div id="algorithmModal" aria-modal="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <h3 id="modalTitle" class="modal-title">Algorithm Explanation</h3>
+      <div id="algorithmContent" class="algorithm-content">
+        <h4>Algorithm Overview</h4>
+        <p>The project uses a combination of algorithms to match user input ingredients with recipes...</p>
+        <!-- (content remains the same) -->
+        <ul>
+          <li><strong>Greedy Matching:</strong> ...</li>
+          <li><strong>Gap Analysis:</strong> ...</li>
+          <li><strong>Smart Substitutions:</strong> ...</li>
+          <li><strong>Backtracking Search:</strong> ...</li>
+        </ul>
+        <!-- Rest of your modal content -->
+      </div>
+      <button id="closeModalBtn" class="close-modal-btn">Close</button>
+    </div>
+  </div>
+
+  <script>
+    const viewAlgoBtn = document.getElementById('viewAlgorithmBtn');
+    const modal = document.getElementById('algorithmModal');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+
+    viewAlgoBtn.addEventListener('click', () => {
+      modal.style.display = 'flex';
+    });
+
+    closeModalBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
